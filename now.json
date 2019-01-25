@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "name": "next-transpile-errors",
+  "builds": [{ "src": "package.json", "use": "@now/next" }],
+  "github": {
+    "autoAlias": false
+  },
+  "build": {
+    "env": {
+      "APP_ENV": "production"
+    }
+  }
+}
